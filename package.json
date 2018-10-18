@@ -3,16 +3,21 @@
   "version": "1.0.0",
   "description": "All have been introduced React environment",
   "bugs": {
-    "url": "https://github.com/osamu38/react-ssr-starter/issues"
+    "url": "https://bitbucket.org/shibamoto/react-ssr-starter/issues"
   },
-  "license": "MIT",
-  "author": "osamu38",
   "main": "index.js",
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/osamu38/react-ssr-starter.git"
+    "url": "git+https://shibamoto@bitbucket.org/shibamoto/react-ssr-starter.git"
   },
+  "keywords": [
+    "node.js",
+    "boilrplate"
+  ],
+  "author": "silverbirder",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/shibamoto/react-ssr-starter#readme",
   "scripts": {
     "build": "npm run build:client && npm run build:server",
     "build:analyze": "npm run build:client:analyze & npm run build:server:analyze",
@@ -26,7 +31,7 @@
     "dev": "nodemon index",
     "start": "NODE_ENV=production node index",
     "start:inspect": "NODE_ENV=production node --inspect index",
-    "storybook": "start-storybook -s ./public -p 2626 -c ./tools/storybook",
+    "storybook": "start-storybook --ci -s ./public -p 2626 -c ./tools/storybook",
     "flow": "flow",
     "test": "NODE_ENV=test jest",
     "test:update": "npm test -- -u",
