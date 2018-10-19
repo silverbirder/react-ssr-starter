@@ -36,7 +36,7 @@
     "test": "NODE_ENV=test jest",
     "test:update": "npm test -- -u",
     "test:coverage": "npm test -- --coverage",
-    "snyk": "snyk test　-s"
+    "snyk": "snyk test"
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
