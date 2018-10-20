@@ -38,7 +38,8 @@
     "test:update": "npm test -- -u",
     "test:coverage": "npm test -- --coverage&&codecov",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "npm run snyk-protect",
+    "esdoc": "esdoc"
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
@@ -96,6 +97,8 @@
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.6.0",
     "enzyme-to-json": "^3.3.4",
+    "esdoc": "^1.1.0",
+    "esdoc-standard-plugin": "^1.0.0",
     "eslint": "^5.7.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.1.0",

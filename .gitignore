@@ -2,6 +2,7 @@ node_modules/*
 dist/*
 coverage/*
 flow-typed/*
+esdoc/*
 *.log
 yarn.lock
 package-lock.json
