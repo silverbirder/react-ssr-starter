@@ -35,5 +35,4 @@ jobs:
         
       # run tests!
       - run: npm test -s
-      - run: npm run snyk -s
-
+      - run: npm run synk:test -s && npm run synk:monitor -s

@@ -34,9 +34,10 @@
     "storybook": "start-storybook --ci -s ./public -p 2626 -c ./tools/storybook",
     "flow": "flow",
     "test": "NODE_ENV=test jest",
+    "synk:test": "snyk test",
+    "snyk:monitor": "snyk monitor",
     "test:update": "npm test -- -u",
-    "test:coverage": "npm test -- --coverage",
-    "snyk": "snyk test"
+    "test:coverage": "npm test -- --coverage"
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
