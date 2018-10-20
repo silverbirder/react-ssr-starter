@@ -33,7 +33,7 @@
     "start:inspect": "NODE_ENV=production node --inspect index",
     "storybook": "start-storybook --ci -s ./public -p 2626 -c ./tools/storybook",
     "flow": "flow",
-    "test": "snyk test && NODE_ENV=test jest",
+    "test": "NODE_ENV=test jest",
     "snyk:monitor": "snyk monitor",
     "test:update": "npm test -- -u",
     "test:coverage": "npm test -- --coverage",
