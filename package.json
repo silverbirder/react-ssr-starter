@@ -36,7 +36,7 @@
     "test": "NODE_ENV=test jest",
     "snyk:monitor": "snyk monitor",
     "test:update": "npm test -- -u",
-    "test:coverage": "npm test -- --coverage",
+    "test:coverage": "npm test -- --coverage&&codecov",
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect"
   },
@@ -91,6 +91,7 @@
     "babel-plugin-module-resolver": "^3.1.1",
     "babel-plugin-styled-components": "^1.8.0",
     "clean-webpack-plugin": "^0.1.19",
+    "codecov": "^3.1.0",
     "copy-webpack-plugin": "^4.5.3",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.6.0",

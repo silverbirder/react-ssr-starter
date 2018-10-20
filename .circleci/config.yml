@@ -34,5 +34,5 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
         
       # run tests!
-      - run: npm test -s
+      - run: npm run test:coverage -s
       - run: npm run snyk:monitor -s
