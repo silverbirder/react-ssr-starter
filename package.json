@@ -34,7 +34,7 @@
     "storybook": "start-storybook --ci -s ./public -p 2626 -c ./tools/storybook",
     "flow": "flow",
     "test": "NODE_ENV=test jest",
-    "snyk:monitor": "snyk monitor",
+    "snyk:test": "snyk test",
     "test:update": "npm test -- -u",
     "test:coverage": "npm test -- --coverage&&codecov",
     "snyk-protect": "snyk protect",
@@ -43,6 +43,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
+    "@sentry/node": "^4.2.1",
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "compression": "^1.7.3",
@@ -70,9 +71,9 @@
     "redux-thunk": "^2.3.0",
     "serialize-javascript": "^1.5.0",
     "serve-favicon": "^2.5.0",
+    "snyk": "^1.104.1",
     "styled-components": "^3.4.10",
-    "styled-reset": "^1.6.0",
-    "snyk": "^1.104.1"
+    "styled-reset": "^1.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
