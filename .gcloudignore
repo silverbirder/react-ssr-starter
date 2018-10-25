@@ -1,0 +1,5 @@
+.circleci/
+esdoc/
+node_modules/
+tools/
+src/
