@@ -48,7 +48,9 @@
     }
   },
   "lint-staged": {
-    "*.js": ["eslint --fix", "stylelint --fix", "git add"]
+    "linters": {
+      "src/**/*.js": ["eslint --fix", "stylelint --fix", "git add"]
+    }
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
