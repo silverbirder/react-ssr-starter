@@ -40,15 +40,15 @@
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect",
     "esdoc": "esdoc",
-    "deploy": "gcloud app deploy",
-    "pre-commit": "lint-staged"
+    "deploy": "gcloud app deploy"
+  },
+  "husky": {
+    "hooks": {  
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "stylelint --fix",
-      "git add"
-    ]
+    "*.js": ["eslint --fix", "stylelint --fix", "git add"]
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
