@@ -22,6 +22,10 @@ All have been introduced React environment.
 - [enzyme](http://airbnb.io/enzyme/)
 - [webpack](https://webpack.js.org/)
 - [babel](https://babeljs.io/)
+- [codecov](https://codecov.io/)
+- [esdoc](https://esdoc.org/)
+- [snyk](https://snyk.docs.apiary.io/)
+- [circleci](https://circleci.com/)
 
 ## Install
 
