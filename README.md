@@ -30,7 +30,7 @@ All have been introduced React environment.
 ## Install
 
 ```
-$ git clone https://github.com/osamu38/react-ssr-starter.git
+$ git clone https://github.com/silverbirder/react-ssr-starter.git
 $ cd react-ssr-starter
 $ npm i
 ```

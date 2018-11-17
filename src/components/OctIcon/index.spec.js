@@ -9,7 +9,7 @@ describe('<OctIcon />', () => {
     expect(wrapper).toMatchInlineSnapshot(`
 <OctIcon>
   <a
-    href="https://github.com/osamu38/react-ssr-starter"
+    href="https://github.com/silverbirder/react-ssr-starter"
     rel="noopener noreferrer"
     target="_blank"
   >

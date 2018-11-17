@@ -18,5 +18,5 @@ const FooterUI = styled.div`
 `;
 
 export default function Footer() {
-  return <FooterUI>© 2018 osamu38</FooterUI>;
+  return <FooterUI>© 2018 silverbirder</FooterUI>;
 }

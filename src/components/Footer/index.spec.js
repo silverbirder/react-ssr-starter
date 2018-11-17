@@ -21,7 +21,7 @@ describe('<Footer />', () => {
     <div
       className="c0"
     >
-      © 2018 osamu38
+      © 2018 silverbirder
     </div>
   </styled.div>
 </Footer>
